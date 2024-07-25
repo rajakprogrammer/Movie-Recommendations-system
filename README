@@ -1,22 +1,9 @@
-Recommender systems are essential for enhancing
-user experience and information filtering on a range of online
-platforms. This work mostly explores collaborative filtering
-approaches with an emphasis on the use of Alternating Least
-Squares (ALS) matrix factorization for personalized movie recommendations using Apache Spark ML. The system provides
-personalized movie recommendations for each user through using
-ALS to forecast their tastes and a dataset that was obtained
-from the Grouplens website. Two significant recommender system
-approaches, Content-Based Filtering (CBF) and Collaborative
-Filtering (CF), will be discussed in this paper along with the
-benefits and drawbacks of each.The collaborative filtering approach used in this study shows how successful it is in capturing
-user preferences based on previous usage and getting outside
-barriers like the cold-start issue. The recommendation made by
-the recommendForAllUsers method The results show the way
-the model could get used in practice by showcasing the system’s
-ability to present personalized movie recommendations.
-In this study, three key datasets are employed: ’Ratings,’
-’movies,’ and ’users.’ The ’Ratings’ dataset encompasses
-approximately 1 million ratings, featuring userId, movieId,
-rating, and timestamp. The ’movies’ dataset contains essential
-information on around 4000 movies, including movieId, title,
-and genres
+Recommender systems are essential for enhancing user experience and information filtering on a range of online
+platforms. This work mostly explores collaborative filtering approaches with an emphasis on the use of Alternating Least
+Squares (ALS) matrix factorization for personalized movie recommendations using Apache Spark ML. The system provides personalized movie recommendations for each user through using ALS to forecast their tastes and a dataset that was obtained
+from the Grouplens website. Two significant recommender system approaches, Content-Based Filtering (CBF) and Collaborative
+Filtering (CF), will be discussed in this paper along with the benefits and drawbacks of each.The collaborative filtering approach used in this study shows how successful it is in capturing
+user preferences based on previous usage and getting outside barriers like the cold-start issue. The recommendation made by
+the recommendForAllUsers method The results show the way the model could get used in practice by showcasing the system’s
+ability to present personalized movie recommendations. In this study, three key datasets are employed: ’Ratings,’ ’movies,’ and ’users.’ The ’Ratings’ dataset encompasses
+approximately 1 million ratings, featuring userId, movieId, rating, and timestamp. The ’movies’ dataset contains essential information on around 4000 movies, including movieId, title, and genres.
